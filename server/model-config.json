@@ -1,0 +1,161 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Account": {
+    "dataSource": "mysql",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "ActivityMaster": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "ActivityMcq": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "ActivitySubmission": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Class": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "ClassTeacherSubject": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Curiculum": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Exam": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Feedback": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "FeedbackReply": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Homework": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Menu": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Parent": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "RoleMenu": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "School": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Student": {
+    "dataSource": "mysql",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "StudentClass": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "StudentGrade": {
+    "dataSource": "mysql",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "StudentParent": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Subject": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Teacher": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "TeacherActivity": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "TimeTable": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "UserRoleMenu": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "ValidValues": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "Roles": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "user": {
+    "dataSource": "mysql",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Tahir": {
+    "dataSource": "db",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "newModel": {
+    "dataSource": "db",
+    "public": true
+  }
+}

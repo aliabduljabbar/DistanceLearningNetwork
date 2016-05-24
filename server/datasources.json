@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysql": {
+    "url": "fyp.tahiriftikhar.com",
+    "database": "dln",
+    "password": "root",
+    "name": "mysql",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
